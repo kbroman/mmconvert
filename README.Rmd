@@ -2,6 +2,7 @@
 
 [![R-CMD-check](https://github.com/rqtl/mmconvert/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rqtl/mmconvert/actions/workflows/R-CMD-check.yaml)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/mmconvert)](https://cran.r-project.org/package=mmconvert)
+[![r-universe badge](https://rqtl.r-universe.dev/mmconvert/badges/version)](https://rqtl.r-universe.dev/mmconvert)
 [![zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565363.svg)](https://doi.org/10.5281/zenodo.5565363)
 
 [Karl Broman](https://kbroman.org)
@@ -21,14 +22,25 @@ the Jackson Lab.
 
 Install the package from
 [CRAN](https://cran.r-project.org/package=mmconvert) with
-`install.packages("mmconvert")`.
 
-Alternatively, install the mmconvert package from
-[GitHub](https://github.com/rqtl/mmconvert) using the
-[remotes package](https://remotes.r-lib.org):
+```r
+install.packages("mmconvert")
+```
 
-    install.packages("remotes")
-    remotes::install_github("rqtl/mmconvert")
+Alternatively, install it from [R
+universe](https://rqtl.r-universe.dev):
+
+```r
+install.packages("mmconvert", repos=c("https://rqtl.r-universe.dev",
+                                      "https://cloud.r-project.org"))
+```
+
+Or use [remotes](https://remotes.r-lib.org) to install it from its GitHub source:
+
+```r
+install.packages("remotes")
+remotes::install_github("rqtl/mmconvert")
+```
 
 ---
 
