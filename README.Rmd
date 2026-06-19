@@ -5,8 +5,6 @@
 [![r-universe badge](https://rqtl.r-universe.dev/mmconvert/badges/version)](https://rqtl.r-universe.dev/mmconvert)
 [![zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5565363.svg)](https://doi.org/10.5281/zenodo.5565363)
 
-[Karl Broman](https://kbroman.org)
-
 R package to convert mouse genome positions between build 39 physical locations and
 the [Cox genetic map](https://doi.org/10.1534/genetics.109.105486) positions.
 (See the [Cox map version 3](https://github.com/kbroman/CoxMapV3), updated
