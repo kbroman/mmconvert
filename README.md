@@ -21,21 +21,24 @@ the Jackson Lab.
 Install the package from
 [CRAN](https://cran.r-project.org/package=mmconvert) with
 
-```r
+
+``` r
 install.packages("mmconvert")
 ```
 
 Alternatively, install it from [R
 universe](https://rqtl.r-universe.dev):
 
-```r
+
+``` r
 install.packages("mmconvert", repos=c("https://rqtl.r-universe.dev",
                                       "https://cloud.r-project.org"))
 ```
 
 Or use [remotes](https://remotes.r-lib.org) to install it from its GitHub source:
 
-```r
+
+``` r
 install.packages("remotes")
 remotes::install_github("rqtl/mmconvert")
 ```
